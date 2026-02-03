@@ -1,0 +1,17 @@
+.box{
+    border: 2px solid red;
+    width: 300px;
+    
+}
+
+.box .name {
+    color: aqua;
+}
+
+.box .cat {
+    width: 200px;
+}
+
+#bla { 
+    color: black;
+}
