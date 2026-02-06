@@ -130,4 +130,141 @@
 
 
 
+// function AreaOfRecrangle(w, h){
+//     alert(w * h)
+// }
 
+// AreaOfRecrangle(5, 10)
+
+
+
+// function Palindrom(a){
+//     s=""
+//     for(let i=a.length; i; i--, s+=a[i]);
+
+//     if(a==s){console.log("Палиндром")}
+//     else{console.log("Не полиндром")}
+// }
+
+// Palindrom(prompt(">>>"))
+
+
+
+// function Fahrenheit(C){alert(C+32 + " Fahrenheit")}
+
+// Fahrenheit(+(prompt("Celsius...")))
+
+
+
+// function CharacterCount(a){alert(a.length)}
+
+// CharacterCount(prompt(">>>"))
+
+
+
+// function SquareOfANumber(a){alert(a**2)}
+
+// SquareOfANumber(+(prompt(">>>")))
+
+
+
+// const CubeOfANumber = x => x**3
+// alert(CubeOfANumber(+prompt(">>>")))
+
+
+
+// const EvenOrOdd = x => {
+//     if(x%2){toq(x)}
+//     else{juft(x)}
+// }
+// EvenOrOdd(parseInt(prompt(">>>")))
+
+
+
+// const FilterPositiveNumber = x => {
+//     let s = [], v = 0
+//     for (let i = 0; i<x.length; i++){
+//         if (x[i]>0){
+//             s[v] = x[i]
+//             v++
+//         }
+//     }
+//     return s
+// }
+
+// const a = [-2, 5, -1, 7, 0]
+
+// console.log(a)
+// console.log(FilterPositiveNumber(a))
+
+
+
+// const LongestWordLength = x => {
+//     let s = ""
+//     for(let i=0; i<x.length; i++){
+//         if (s.length<x[i].length){
+//             s = x[i]
+//         }
+//     }
+//     console.log(s.length)
+// }
+
+// LongestWordLength(["apple", "banana", "kiwi"])
+
+// const Add10ProcentTax = x => x + (x * 0.10);
+// alert(Add10ProcentTax(+(prompt(">>>"))))
+
+
+
+// function ApplyCallbackToNumber (a, square){square(a)}
+
+// ApplyCallbackToNumber(+(prompt(">>>")), SquareOfANumber)
+
+
+
+// function GrettingWitnCallback (a, greet){greet(a)}
+// function Hello (s){alert(`Привет, ${s}!`)}
+
+// GrettingWitnCallback(prompt("Имя..."), Hello)
+
+
+
+// function FilterArrayWithCallback (a, j){
+//     let s=[], v=0
+//     for(let i=0; i<a.length; i++){
+//         if(j(a[i])){
+//             s[v] = a[i]
+//             v++
+//         }
+//     }
+//     console.log(s)
+// }
+// function Juft (s){
+//     if(s%2==0){
+//         return s
+//     }
+//     return false
+// }
+
+// a = [45, 7, -84, 6, 0, 32]
+// console.log(a)
+// FilterArrayWithCallback(a, Juft)
+
+
+
+// const ShoppingCosttWithDiscount = x => x-(x * 0.10)
+// alert(ShoppingCosttWithDiscount(+(prompt(">>>"))))
+
+
+
+// function PassFail (a){
+//     if (a>=60){return "Pass"}
+//     else {return "Fail"}
+// }
+
+// alert(PassFail(+(prompt(">>>"))))
+
+
+
+// const OrderProcessing = x => `Order #${x} completed`
+// console.log(OrderProcessing(+(prompt(">>>"))))
