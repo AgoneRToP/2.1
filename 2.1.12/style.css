@@ -1,0 +1,37 @@
+@import url(./OpenSans-VariableFont_wdth\,wght.ttf);
+
+body {
+    font-family: sans-serif;
+}
+
+div {
+    color: rgb(53, 0, 44);
+    background-color: purple;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    color: white;
+    background-color: rgb(53, 0, 44);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.001s;
+}
+
+#time {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(53, 0, 44);;
+  padding: 20px 40px;
+  border-radius: 15px;
+  display: inline-block;
+}
