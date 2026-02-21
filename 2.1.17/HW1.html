@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw.css">
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">Tab 1</button>
+        <button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
+        <button class="tablinks" onclick="openTab(event, 'tab3')">Tab 3</button>
+    </div>
+
+    <div id="tab1" class="tabcontent">
+        <h3>TAB 1</h3>
+        <p>Bla bla bla</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="tab2" class="tabcontent">
+        <h3>TAB 2</h3>
+        <p>Ptica</p>
+    </div>
+    <div id="tab3" class="tabcontent">
+        <h3>TAB 3</h3>
+        <p>Lola</p>
+    </div>
+
+    <script src="hw.js"></script>
+
+    <script>
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>
