@@ -1,0 +1,33 @@
+.style {
+    padding: 80px 35%;
+    width: 30%;
+    text-align: center;
+}
+
+.text {
+    color: rgb(21, 0, 39);
+    background-color: rgb(38, 31, 77);
+    border: 2px solid rgb(21, 0, 39);
+    border-radius: 0%;
+    box-shadow: inset 0 0 0 1px;
+}
+
+.style p {
+    color: rgb(21, 0, 39);
+    background-color: rgb(38, 31, 77);
+    border: 2px solid rgb(21, 0, 39);
+    border-radius: 0%;
+    box-shadow: inset 0 0 0 1px;
+}
+
+#btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(38, 31, 77);
+    border:2px solid rgb(248, 0, 50);
+    font-size: 30px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px;
+}

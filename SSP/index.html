@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-color: rgb(9, 1, 54);">
+    <div class="style">
+        <h1 class="text">Выборите одну из них</h1>
+        <button id="btn" data-value="0" class="select-btn stone">✊</button>
+        <button id="btn" data-value="1" class="select-btn scissors">✌️</button>
+        <button id="btn" data-value="2" class="select-btn paper">✋</button>
+        <h2 id="result-message"></h2>
+        <p>Ваш выбор: <span id="user-choice">-</span></p>
+        <p>Выбор компьютера: <span id="comp-choice">-</span></p>
+    </div>
+    <div class="scoreboard">
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
