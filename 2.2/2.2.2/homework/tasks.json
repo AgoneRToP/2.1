@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Dars qilish",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Yugurish",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Bozorga borish",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "Kod yozish",
+    "completed": true
+  },
+  {
+    "id": 6,
+    "title": "Uy tozalash",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "Dostlar bilan korishish",
+    "completed": true
+  },
+  {
+    "id": 8,
+    "title": "Ingliz tili",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "title": "Proektni topshirish",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "title": "Uxlash",
+    "completed": true
+  }
+]
